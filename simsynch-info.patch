@@ -1,0 +1,16 @@
+--- synch/synch.texi.orig	2011-10-25 17:41:10.000000000 +0200
++++ synch/synch.texi	2016-07-30 20:53:43.416985809 +0200
+@@ -37,10 +37,10 @@
+ @end quotation
+ @end copying
+ 
+-@dircategory Digital Logic Design
++@dircategory Miscellaneous:
+ @direntry
+-* SimSynch: (synch).    Simulate Digital Logic.
+-* Synch: (synch).       Simulate Digital Logic.
++* SimSynch: (synch).			Simulate Digital Logic
++* Synch: (synch).			Simulate Digital Logic
+ @end direntry
+ 
+ @iftex

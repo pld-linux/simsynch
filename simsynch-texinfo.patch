@@ -1,0 +1,30 @@
+--- synch/synch.texi.orig	2016-07-31 08:40:15.136501771 +0200
++++ synch/synch.texi	2016-07-31 08:42:21.676500328 +0200
+@@ -169,10 +169,13 @@
+ 
+ If @code{Time-stamp:} is not called, the default time-stamp is
+ @code{#f}; the default author is me.
++@end defun
+ 
+-@defunx Revision-stamp: obj
+-@defunx Configuration-stamp: obj
+-@defunx Company-stamp: company-name-string
++@defun Revision-stamp: obj
++@end defun
++@defun Configuration-stamp: obj
++@end defun
++@defun Company-stamp: company-name-string
+ 
+ The rest of these @dfn{stamp}s are not supported by Emacs.
+ @cindex stamp
+@@ -236,8 +239,9 @@
+ @defun comment string1 @dots{}
+ Appends @var{string1} @dots{} to the strings given as arguments to
+ previous calls @code{comment}.
++@end defun
+ 
+-@defunx comment
++@defun comment
+ Returns the (appended) strings given as arguments to previous calls
+ @code{comment} and empties the current string collection.
+ @end defun
